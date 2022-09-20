@@ -24,7 +24,7 @@ After sucessfull workspace creation you should be able to log in into portal <br
 
 Next step is to attach compute cluster.
 ```
-az ml compute create --name nc6-cluster --size Standard_DS11_v2 --min-instances 0 --max-instances 2 --type AmlCompute --resource-group Realtimeml --workspace-name realtimeml
+az ml compute create --name ml-cluster --size Standard_DS11_v2 --min-instances 1 --max-instances 2 --type AmlCompute --resource-group Realtimeml --workspace-name realtimeml
 ```
 
 
