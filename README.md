@@ -26,6 +26,14 @@ Next step is to attach compute cluster.
 ```
 az ml compute create --name ml-cluster --size Standard_DS11_v2 --min-instances 1 --max-instances 2 --type AmlCompute --resource-group Realtimeml --workspace-name realtimeml
 ```
+When compute cluster is ready then we can create machine learning model. <br>
+As a example we will use tutorial of car price prediction
+```
+https://learn.microsoft.com/pl-pl/azure/machine-learning/tutorial-designer-automobile-price-train-score
+```
+When all steps in tutorial are completed then we can solve model and obtain following resutls<br>
+<img src="https://github.com/WojtekSza/Real_time_machine_learning/blob/main/Real_time_ml/2.jpg" alt="spark" width="400"/>  <br>
+<img src="https://github.com/WojtekSza/Real_time_machine_learning/blob/main/Real_time_ml/3.jpg" alt="spark" width="400"/>  <br>
 
 
 Last step is to remove all created resources
