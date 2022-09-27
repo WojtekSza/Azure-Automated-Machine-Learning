@@ -24,19 +24,27 @@ After sucessfull workspace creation you should be able to log in into portal <br
 
 Next step is to attach compute cluster.
 ```
-az ml compute create --name ml-cluster --size Standard_DS11_v2 --min-instances 1 --max-instances 2 --type AmlCompute --resource-group Realtimeml --workspace-name realtimeml
+az ml compute create --name ml-cluster --size Standard_DS11_v2 --min-instances 0 --max-instances 2 --type AmlCompute --resource-group Realtimeml --workspace-name realtimeml
 ```
 When compute cluster is ready then we can create machine learning model. <br>
-As a example we will use tutorial of car price prediction
+As a example we will use Kaggle dataset about Twitter disaster.
 ```
-https://learn.microsoft.com/pl-pl/azure/machine-learning/tutorial-designer-automobile-price-train-score
+https://www.kaggle.com/competitions/nlp-getting-started
 ```
-When all steps in tutorial are completed then we can solve model and obtain following resutls<br>
-<img src="https://github.com/WojtekSza/Real_time_machine_learning/blob/main/Real_time_ml/2.jpg" alt="spark" width="400"/>  <br>
-<img src="https://github.com/WojtekSza/Real_time_machine_learning/blob/main/Real_time_ml/3.jpg" alt="spark" width="400"/>  <br>
+<img src="https://github.com/WojtekSza/Real_time_machine_learning/blob/main/Real_time_ml/4.jpg" alt="spark" width="400"/>  <br>
+
+Then we will upload "train" and "test" datasets downloaded from Kaggle webpage <br>
+Data set will be limited to text of Twitters only (w/o location and key features). <br>
+<img src="https://github.com/WojtekSza/Real_time_machine_learning/blob/main/Real_time_ml/5.jpg" alt="spark" width="400"/>  <br>
+
+For machine learning we will use Azure Automated ML: <br>
+<img src="https://github.com/WojtekSza/Real_time_machine_learning/blob/main/Real_time_ml/6.jpg" alt="spark" width="400"/>  <br>
+For the tutorial purpose there was selected Random Forest model with 30-70% training data split <br>
 
 
-Last step is to remove all created resources
+
+
+# Last step is to remove all created resources
 ```
 az group delete --name Realtimeml
 ```
