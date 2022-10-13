@@ -45,7 +45,7 @@ After 30 minutes model is trained with following results:<br>
 <img src="https://github.com/WojtekSza/Real_time_machine_learning/blob/main/Real_time_ml/10.jpg" alt="spark" width="800"/>  <br>
 ## Accuracy 77% w/o any specific model adjustement of alghorithm selection. Not bad! (Precision and recall at the same level).
 
-Final step to verify results on Kaggle: <br>
+Final step to verify results on Kaggle with predicted classes in test.csv file: <br>
 <img src="https://github.com/WojtekSza/Real_time_machine_learning/blob/main/Real_time_ml/9.jpg" alt="spark" width="800"/>  <br>
 Nice. Verified results shows 76% accuracy<br>
 
