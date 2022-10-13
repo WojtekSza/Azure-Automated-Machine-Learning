@@ -37,7 +37,7 @@ Then we will upload "train" and "test" datasets downloaded from Kaggle webpage <
 Data set will be limited to text of Twitters only (w/o location and key features). <br>
 <img src="https://github.com/WojtekSza/Real_time_machine_learning/blob/main/Real_time_ml/5.jpg" alt="spark" width="800"/>  <br>
 
-For machine learning we will use Azure Automated ML: <br>
+For machine learning we will use Classification in the Azure Automated ML: <br>
 <img src="https://github.com/WojtekSza/Real_time_machine_learning/blob/main/Real_time_ml/6.jpg" alt="spark" width="800"/>  <br>
 For the tutorial purpose there was selected Random Forest model with 30-70% training data split <br>
 
