@@ -31,14 +31,14 @@ As a example we will use Kaggle dataset about Twitter disaster.
 ```
 https://www.kaggle.com/competitions/nlp-getting-started
 ```
-<img src="https://github.com/WojtekSza/Real_time_machine_learning/blob/main/Real_time_ml/4.jpg" alt="spark" width="400"/>  <br>
+<img src="https://github.com/WojtekSza/Real_time_machine_learning/blob/main/Real_time_ml/4.jpg" alt="spark" width="600"/>  <br>
 
 Then we will upload "train" and "test" datasets downloaded from Kaggle webpage <br>
 Data set will be limited to text of Twitters only (w/o location and key features). <br>
-<img src="https://github.com/WojtekSza/Real_time_machine_learning/blob/main/Real_time_ml/5.jpg" alt="spark" width="400"/>  <br>
+<img src="https://github.com/WojtekSza/Real_time_machine_learning/blob/main/Real_time_ml/5.jpg" alt="spark" width="600"/>  <br>
 
 For machine learning we will use Azure Automated ML: <br>
-<img src="https://github.com/WojtekSza/Real_time_machine_learning/blob/main/Real_time_ml/6.jpg" alt="spark" width="400"/>  <br>
+<img src="https://github.com/WojtekSza/Real_time_machine_learning/blob/main/Real_time_ml/6.jpg" alt="spark" width="600"/>  <br>
 For the tutorial purpose there was selected Random Forest model with 30-70% training data split <br>
 
 
