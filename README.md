@@ -1,4 +1,4 @@
-# Real_time_machine_learning
+# Azure Automated Machine Learning
 Repository of real time machine learning created in Azure Machine Learning tool <br>
 First step is to log into Azure CLI. Use following link to dowloand latest CLI package.
 ```
