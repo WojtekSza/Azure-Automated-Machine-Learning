@@ -43,13 +43,13 @@ For the tutorial purpose there was selected Random Forest model with 30-70% trai
 
 After 30 minutes model is trained with following results:<br>
 <img src="https://github.com/WojtekSza/Real_time_machine_learning/blob/main/Real_time_ml/10.jpg" alt="spark" width="800"/>  <br>
-##Accuracy 77% w/o any specific model adjustement of alghorithm selection. Not bad! (Precision and recall at the same level).
+## Accuracy 77% w/o any specific model adjustement of alghorithm selection. Not bad! (Precision and recall at the same level).
 
 Final step to verify results on Kaggle: <br>
 <img src="https://github.com/WojtekSza/Real_time_machine_learning/blob/main/Real_time_ml/9.jpg" alt="spark" width="800"/>  <br>
 Nice. Verified results shows 76% accuracy<br>
 
-#Conclusion
+# Conclusion
 With usage Azure Automated Machine Learning we can quickly train model w/o any code with good initial accuracy. Verification of results shows good correlation 77% vs 76%. Further tune up of model paramters for sure will improve result.
 
 # Last step is to remove all created resources
